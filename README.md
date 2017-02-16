@@ -29,7 +29,7 @@ Use examples:
 <code>./shodan_cmd.py  -R [ip/range]</code>
 
 6. Search exploits.<br/>
-<code>./shodan_cmd.py -E [query]
+<code>./shodan_cmd.py -E [query]</code>
   - Possible search filters:<br/>
     author  bid   code    cve   date    platform<br/>
     type  osvdb   msb     port  title   description<br/>
@@ -43,7 +43,7 @@ Use examples:
     timestamp   transport   data    isp     asn<br/>
   - Example:<code>./shodan_cmd.py -S 'ftp anonymous user logged in' -r ip_str,city</code>
   
-### All options support the argument [-o] to save result in a file. ###<br/>
+ --- All options support the argument [-o] to save result in a file. ---<br/>
 
 # Version
 Shodan_cmd V1.0
